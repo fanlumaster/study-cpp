@@ -1,3 +1,4 @@
+# run exe file that has already been compiled before
 $content = Get-Content -Path "./CMakeLists.txt"
 foreach($line in $content)
 {
